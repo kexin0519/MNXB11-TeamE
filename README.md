@@ -14,7 +14,7 @@ julygraph.cxx: Creates a line graph of the July temperature data. The resulting 
 Run the program:   
 1. Compile data.cxx to process the raw data file (goteborg.csv).   
 in bash   
-> g++ data.cxx -o data
+> g++ data.cxx -o data    
 > ./data
 
 2. Create the Scatter Plot and Histogram   
@@ -30,8 +30,9 @@ The histogram image saved as temperature_histogram.png.
 3. Filter July Temperature Data
 Compile and run data_july.cxx to filter the July data from 2010-2020.   
 in bash    
-> g++ data_july.cxx -o data_july
+> g++ data_july.cxx -o data_july    
 > ./data_july
+
 4. Create the July Temperature Line Graph    
 Compile and run julygraph.cxx to create a line graph of the July temperature data.    
 root> .L julygraph.cxx+   
