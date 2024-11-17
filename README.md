@@ -20,8 +20,7 @@ g++ data.cxx -o filtered_gote_data.csv
 Compile and run scattorplot.cxx and tempgraph.cxx to generate visualizations.   
 root> .L scattorpolt.cxx+   
 root> CreateDataTempPlot()    
-The result stored in temp_scatterplot.png
-
+The result stored in temp_scatterplot.png   
 Create histogram:   
 root> .L tempgraph.cxx+   
 root> createTempHistogram()   
@@ -32,8 +31,8 @@ Compile and run data_july.cxx to filter the July data from 2010-2020.
 in bash    
 g++ data_july.cxx -o filtered_july_temp.csv
 
-4. Create the July Temperature Line Graph
-Compile and run julygraph.cxx to create a line graph of the July temperature data.
-root> .L julygraph.cxx+
-root> plotJulyTemp()    
+4. Create the July Temperature Line Graph    
+Compile and run julygraph.cxx to create a line graph of the July temperature data.    
+root> .L julygraph.cxx+   
+root> plotJulyTemp()     
 The line graph image will be saved as july_temperature.png.
